@@ -5,8 +5,8 @@ AWS_ACCESS_KEY_ID='XXXX'
 AWS_SECRET_ACCESS_KEY='XXXX'
 REGION_NAME='us-east-1'
 
-QUEUE_URL = 'https://sqs.us-east-1.amazonaws.com/497701912194/input-file-info.fifo'
-OP_QUEUE_URL = 'https://sqs.us-east-1.amazonaws.com/497701912194/output-file-info.fifo'
+QUEUE_URL = 'queue1'
+OP_QUEUE_URL = 'queue2'
 QUEUE_NAME='input-file-info.fifo'
 OP_QUEUE_NAME='output-file-info.fifo'
 

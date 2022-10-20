@@ -50,10 +50,10 @@ This will be the public URL of the web-tier's instance. Since, it's dynamic, so 
 
 Input queue details : 
 QUEUE_NAME = input-file-info.fifo
-QUEUE_URL = https://sqs.us-east-1.amazonaws.com/497701912194/input-file-info.fifo
+QUEUE_URL = queue1
 
 Output queue details : 
-OP_QUEUE_URL = https://sqs.us-east-1.amazonaws.com/497701912194/output-file-info.fifo
+OP_QUEUE_URL = queue2
 OP_QUEUE_NAME= output-file-info.fifo
 
 # S3 Buckets Details : 

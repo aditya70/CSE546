@@ -24,8 +24,8 @@ client_sqs_rcv = boto3.client('sqs', region_name=REGION_NAME,
                     aws_access_key_id=AWS_ACCESS_KEY_ID, 
                     aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
                     
-QUEUE_URL = 'https://sqs.us-east-1.amazonaws.com/774086825232/input-file-info.fifo'
-OP_QUEUE_URL = 'https://sqs.us-east-1.amazonaws.com/774086825232/output-file-info.fifo'
+QUEUE_URL = 'queu11'
+OP_QUEUE_URL = 'queue2'
 QUEUE_NAME='input-file-info.fifo'
 OP_QUEUE_NAME='output-file-info.fifo'
 max_queue_messages = 10
